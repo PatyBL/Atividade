@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="pt-br"> 
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medía.com</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <section id="container">
+            <h1 id="res">a</h1>
+            <p id="frase">b</p>
+        </section>
+
+        <section class="card">
+            <form id="usuario_login" >
+                <h2>Calcular Nota</h2>
+                
+                <!--Pega o nome do aluno-->
+                <input 
+                    type="text"
+                    id="nome" 
+                    placeholder="Seu Nome."
+                    required
+                >
+                <!--Pega as duas notas do aluno-->
+                <input 
+                    type="float"
+                    max="10"
+                    min="0"
+                    id="nota1" 
+                    placeholder="Escreva sua 1º nota" 
+                    required
+                >
+                <input 
+                    type="float"
+                    max="10"
+                    min="0"
+                    id="nota2" 
+                    placeholder="Escreva sua 2º nota:" 
+                    required
+                >
+                <button id="enviar">Calcular</button>
+            </form>
+        </section>
+    </body>
+
+    <!--conecta meu js apenas no final da pagina para ele só carregar depois de todo mundo.-->
+    <script src="code.js"></script>
+</html>
