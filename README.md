@@ -1,1 +1,1 @@
-Irei salvar todas mi9nhas atividades aqui para ajudar o meu professor a acessar
+- Irei salvar todas minhas atividades aqui para ajudar o meu professor a acessar
