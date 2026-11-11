@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão</title>
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+
+    <section class="pai">
+        <form class="painel" id="formulario">
+            <h2>Pesquise um Pokemon</h2>
+
+            <!-- Nome -->
+            <h3>Coloque o Nome:</h3>
+            <input type="text" id="titulo" placeholder="Funciona com o ID também..." required>
+
+            <!-- Enviar tudo para o JS -->
+            <button type="submit">Confirmar</button>
+        </form>
+
+        <div class="json">
+            <h2>Informações do Pokemon</h2>
+            <pre id="resultado">Consultando Pokedex...</pre>
+        </div>
+    </section>
+
+    <script src="pagina.js"></script>
+</body>
+</html>
